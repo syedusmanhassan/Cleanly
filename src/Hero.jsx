@@ -16,10 +16,10 @@ export default function CleaningServiceHero() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
             </div>
-            <span className="text-sm font-medium uppercase tracking-wider text-cyan-500">Established since 2000</span>
+            <span className="text-sm font-medium uppercase tracking-wider text-cyan-500 font-poppins">Established since 2000</span>
           </div>
 
-          <h1 className="mt-6 text-4xl font-bold leading-tight text-gray-900 md:text-5xl lg:text-6xl text-left ipad-pro:text-[2.75rem] ">
+          <h1 className="mt-6 text-4xl font-bold leading-tight text-gray-900 md:text-5xl lg:text-6xl text-left ipad-pro:text-[2.75rem] font-poppins"> 
             A New Solutions For
             <br />
             Your Home Cleaning

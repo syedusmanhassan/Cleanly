@@ -20,8 +20,8 @@ const Navbar = () => {
 
       {/* Desktop Buttons */}
       <div className="hidden md:flex items-center space-x-4 z-10">
-        <button className="text-blue-500 hover:text-blue-600">Login</button>
-        <button className="bg-gray-100 text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200">Sign Up</button>
+        <button className="text-[rgba(219,237,251,1)] hover:text-blue-600">Login</button>
+        <button className="bg-[rgba(219,237,251,1)] text-[rgba(82,142,170,1)] px-4 py-2 rounded-lg hover:bg-gray-200">Sign Up</button>
       </div>
 
       {/* Mobile Hamburger Button */}
