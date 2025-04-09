@@ -47,13 +47,13 @@ export default function CleaningServiceHero() {
 
         {/* Right Image */}
         <div className="relative flex-1 hidden lg:block">
-          <div className="h-[580px] w-[600px] bg-[rgba(128,193,239,1)] rounded-bl-[30%] lg:ml-[120px] lg:-mt-[65px] ">
+          <div className="h-[630px] w-[630px] bg-[rgba(128,193,239,1)] rounded-bl-[30%] lg:ml-[120px] lg:-mt-[72px] ipad-pro:w-[600px] ipad-pro:h-[580px]">
             <div className="absolute bottom-0 right-0 h-full w-full  overflow-hidden ">
               <div className="absolute bottom-0 right-0 h-[90%] w-[90%] overflow-hidden  ">
                 <img
                   src={Women}
                   alt="Cleaning professional with gloves"
-                  className="absolute bottom-0 right-0 h-full w-full object-contain ipad-pro:w-[50%] ipad-pro:right-[180px] ipad-pro:bottom-[25px]"
+                  className="absolute bottom-0 right-0 h-full w-full object-contain ipad-pro:w-[50%] ipad-pro:right-[193px] ipad-pro:bottom-[32px]"
                 />
               </div>
             </div>

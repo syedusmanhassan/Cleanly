@@ -11,7 +11,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop Navigation */}
-      <div className="hidden md:flex space-x-8 z-10">
+      <div className="hidden md:flex space-x-8 z-10 lg:-ml-[200px] ipad-pro:-ml-[125px]">
         <a href="/" className="text-gray-900 hover:text-blue-500">Home</a>
         <a href="/about" className="text-gray-500 hover:text-blue-500">About</a>
         <a href="/services" className="text-gray-500 hover:text-blue-500">Services</a>
@@ -19,7 +19,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop Buttons */}
-      <div className="hidden md:flex items-center space-x-4 z-10">
+      <div className="hidden md:flex items-center space-x-4 z-10 lg:gap-[40px]">
         <button className="text-[rgba(219,237,251,1)] hover:text-blue-600">Login</button>
         <button className="bg-[rgba(219,237,251,1)] text-[rgba(82,142,170,1)] px-4 py-2 rounded-lg hover:bg-gray-200">Sign Up</button>
       </div>
