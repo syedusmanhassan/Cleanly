@@ -4,6 +4,7 @@ import Best from './Best';
 import CleaningServices from './CleaningServices';
 import NavHero from './Hero';
 import Navbar from './Navbar';
+import TeamSection from './TeamsSection';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavHero/>
       <CleaningServices/>
       <Best/>
+      <TeamSection/>
     </div>
   );
 }
