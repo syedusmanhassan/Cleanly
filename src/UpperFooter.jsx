@@ -3,12 +3,12 @@ import React from 'react'
 const UpperFooter =()=> {
   return (
     <footer className="w-full py-12 bg-white">
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6 lg:px-40 ipad-pro:px-24">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Services Column */}
-          <div className="space-y-4">
-            <h3 className="text-xl font-medium text-[#FF7846] font-poppins">Services</h3>
-            <nav className="flex flex-col space-y-3 font-poppins">
+          <div className="space-y-4 text-left">
+            <h3 className="text-xl font-medium text-[#FF7846] font-poppins ">Services</h3>
+            <nav className="flex flex-col space-y-3 font-poppins ">
               <a href="#" className="text-gray-700 hover:text-gray-900">
                 Home Cleaning
               </a>
@@ -25,9 +25,9 @@ const UpperFooter =()=> {
           </div>
 
           {/* Information Column */}
-          <div className="space-y-4">
+          <div className="space-y-4 text-left">
             <h3 className="text-xl font-medium text-[#FF7846] font-poppins">Information</h3>
-            <nav className="flex flex-col space-y-3 font-poppins">
+            <nav className="flex flex-col space-y-3 font-poppins ">
               <a href="#" className="text-gray-700 hover:text-gray-900">
                 Our Features
               </a>
@@ -44,8 +44,8 @@ const UpperFooter =()=> {
           </div>
 
           {/* Company Column */}
-          <div className="space-y-4">
-            <h3 className="text-xl font-medium text-[#FF7846] font-poppins">Company</h3>
+          <div className="space-y-4 text-left">
+            <h3 className="text-xl font-medium text-[#FF7846] font-poppins ">Company</h3>
             <nav className="flex flex-col space-y-3 font-poppins">
               <a href="#" className="text-gray-700 hover:text-gray-900">
                 Partnership
@@ -66,9 +66,9 @@ const UpperFooter =()=> {
           </div>
 
           {/* About Us Column */}
-          <div className="space-y-4">
+          <div className="space-y-4 text-left">
             <h3 className="text-xl font-medium text-[#FF7846] font-poppins">About Us</h3>
-            <p className="text-gray-700 font-poppins">
+            <p className="text-gray-700 font-poppins ">
               Lorem ipsum dolor sit amet, consectetur dipiscing elit eius mod tempor incididunt
             </p>
             <div className="space-y-2 pt-2">

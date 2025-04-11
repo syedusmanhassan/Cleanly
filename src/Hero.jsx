@@ -4,7 +4,7 @@ import Women from "./picture/women.png"
 
 export default function CleaningServiceHero() {
   return (
-    <div className="lg:min-h-screen min-h-12 ipad-pro:min-h-10 bg-[rgba(244,246,251,1)]">
+    <div className="lg:min-h-[75px] min-h-12 ipad-pro:min-h-10 bg-[rgba(244,246,251,1)]">
       
       {/* Hero Section */}
       <div className="flex flex-col md:flex-row">

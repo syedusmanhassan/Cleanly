@@ -5,7 +5,7 @@ const CTASection = () => {
   return (
     <div className="relative overflow-hidden bg-white py-16">
       {/* Background image */}
-      <div className="absolute inset-0 z-0 bg-[url('./picture/decor.png')] bg-cover bg-center bg-no-repeat opacity-100">
+      <div className="absolute inset-0 z-0 bg-[url('./picture/decor.png')] bg-cover bg-center  bg-no-repeat opacity-100">
         {/* Optional overlay if needed */}
         <div className="absolute inset-0 "></div>
       </div>
@@ -13,10 +13,10 @@ const CTASection = () => {
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-md">
-          <h2 className="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl">
+          <h2 className="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl text-left font-poppins">
             Are You Ready To Work With Us Now?
           </h2>
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 text-gray-600 text-left font-poppins">
             What do you think after seeing the good response from our previous customers
           </p>
           <div className="mt-8 flex flex-wrap gap-4">

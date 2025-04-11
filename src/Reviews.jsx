@@ -27,10 +27,10 @@ const Reviews =() => {
   return (
     <section className="py-16 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-6">
-        <h2 className="text-4xl font-bold text-slate-700 max-w-md text-left">They Satisfied With Our Service</h2>
+        <h2 className="text-4xl font-bold text-slate-700 max-w-md text-left font-poppins">They Satisfied With Our Service</h2>
         <div className="max-w-md">
-          <h3 className="text-2xl font-semibold text-orange-500 mb-2 text-left">Testimonials</h3>
-          <p className="text-slate-600 text-left">Have many related needs, we present a suitable package for you needs</p>
+          <h3 className="text-2xl font-semibold text-orange-500 mb-2 text-left font-poppins">Testimonials</h3>
+          <p className="text-slate-600 text-left font-poppins">Have many related needs, we present a suitable package for you needs</p>
         </div>
       </div>
 
@@ -46,8 +46,8 @@ const Reviews =() => {
                 />
               </div>
               <div>
-                <h4 className="font-semibold text-slate-800 text-left ">{testimonial.name}</h4>
-                <p className="text-slate-500 text-sm text-left">{testimonial.role}</p>
+                <h4 className="font-semibold text-slate-800 text-left font-poppins">{testimonial.name}</h4>
+                <p className="text-slate-500 text-sm text-left font-poppins">{testimonial.role}</p>
               </div>
             </div>
             <div className="flex mb-3">
@@ -55,7 +55,7 @@ const Reviews =() => {
                 <Star key={i} className="w-5 h-5 fill-orange-500 text-orange-500" />
               ))}
             </div>
-            <p className="text-slate-600 text-left">{testimonial.testimonial}</p>
+            <p className="text-slate-600 text-left font-poppins">{testimonial.testimonial}</p>
           </div>
         ))}
       </div>
