@@ -4,7 +4,7 @@ import Women from "./picture/women.png"
 
 export default function CleaningServiceHero() {
   return (
-    <div className="min-h-screen ">
+    <div className="lg:min-h-screen min-h-12 ipad-pro:min-h-10 bg-[rgba(244,246,251,1)]">
       
       {/* Hero Section */}
       <div className="flex flex-col md:flex-row">
@@ -19,7 +19,7 @@ export default function CleaningServiceHero() {
             <span className="text-sm font-medium uppercase tracking-wider text-cyan-500 font-poppins">Established since 2000</span>
           </div>
 
-          <h1 className="mt-6 text-4xl font-bold leading-tight text-gray-900 md:text-5xl lg:text-6xl text-left ipad-pro:text-[2.75rem] font-poppins"> 
+          <h1 className="mt-6 text-4xl font-bold leading-tight text-gray-900 md:text-5xl lg:text-6xl text-left ipad-pro:text-[2.75rem] "> 
             A New Solutions For
             <br />
             Your Home Cleaning
@@ -32,7 +32,7 @@ export default function CleaningServiceHero() {
           <div className="mt-8 flex space-x-4">
             <a
               href="/order"
-              className="rounded-full bg-yellow-400 px-8 py-3 font-medium text-gray-900 hover:bg-yellow-500 flex items-center ipad-pro:w-[165px] ipad-pro:h-[48px]"
+              className="rounded-full bg-[rgba(255,186,24,1)] px-8 py-3 font-medium text-gray-900 hover:bg-yellow-500 flex items-center ipad-pro:w-[165px] ipad-pro:h-[48px]"
             >
               Order Now
             </a>
