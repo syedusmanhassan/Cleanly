@@ -1,6 +1,7 @@
 import { Star } from "lucide-react"
 import Testimonial from "./picture/testimonial.png"
-
+import Testimonial2 from "./picture/Testimonial2.png";
+import Testimonial3 from "./picture/Testimonial3.png";
 const Reviews =() => {
   const testimonials = [
     {
@@ -12,14 +13,14 @@ const Reviews =() => {
     {
       name: "Riana Madiya",
       role: "CEO Founder",
-      image: Testimonial,
+      image: Testimonial2,
       testimonial:
         "The increase in product sales is exponential and takes place gradually, it's really a very good job",
     },
     {
       name: "John Melon",
       role: "Freelancer",
-      image: Testimonial,
+      image: Testimonial3,
       testimonial: "As a business engaged in the field of digital artists and content creators, we are greatly helped",
     },
   ]
